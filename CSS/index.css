@@ -6,8 +6,8 @@ body, html {
 }
 @font-face {
     font-family: "dancingScript", cursive;
-    src: url('../ASSETS/dancingscript.woff2') format('woff2'),
-         url('../ASSETS/dancingscript.woff') format('woff');
+    src: url('/Fonts/dancingscript.woff2') format('woff2'),
+         url('/Fonts/dancingscript.woff') format('woff');
     }
 .background {
     background-image: url('../ASSETS/fairGrounds.png');
