@@ -1,0 +1,54 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+@font-face {
+    font-family: "dancingScript", cursive;
+    src: url('/ASSETS/dancingscript.woff2') format('woff2'),
+         url('/ASSETS/dancingscript.woff') format('woff');
+    }
+.background {
+    background-image: url('/ASSETS/fairGrounds.png');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.welcome-title {
+    font-family: 'dancingScript', cursive;
+    font-size: 48px;
+    color: #64098f;
+    margin-top: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.clickable {
+    width: 200px;
+    margin: 20px;
+    cursor: pointer;
+    
+}
+
+.clickable h2 {
+    font-family: 'dancingScript', cursive;
+    color: #5024ca;
+}
+
+.clickable img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
