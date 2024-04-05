@@ -10,7 +10,7 @@ body, html {
          url('/Fonts/dancingscript.woff') format('woff');
     }
 .background {
-    background-image: url('../ASSETS/fairGrounds.png');
+    background-image: url('/ASSETS/fairGrounds.png');
     background-size: cover;
     background-position: center;
     height: 100%;
